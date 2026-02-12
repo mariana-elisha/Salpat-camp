@@ -1,0 +1,43 @@
+{
+    "aspectRatio": "16:9",
+    "autoFps": true,
+    "creationTime": "2026.01.20 17:50:13",
+    "definitionEdited": false,
+    "definitionTypeByUser": 0,
+    "enableEffects": true,
+    "fps": 30,
+    "frames": 0,
+    "id": "3c120853-78a8-4976-9257-e02c9ee15317",
+    "isPanoramic": false,
+    "lastModifiedTime": "2026.01.20 17:50:13",
+    "lowQualityProxyType": -1,
+    "mainMagnetizable": true,
+    "markTrimEnd": 0,
+    "markTrimIn": 0,
+    "markTrimVisible": false,
+    "name": "Untitled1",
+    "projectPath": "C:/xampp/htdocs/Hotelier/Untitled1",
+    "tracks": [
+        {
+            "audible": true,
+            "id": "7c6f0e36-ecc5-4a51-b70d-31f059e39d39",
+            "locked": false,
+            "type": 0,
+            "visible": true
+        },
+        {
+            "audible": true,
+            "id": "f5abb104-88e4-4a2e-82c7-3c03db10a0c0",
+            "locked": false,
+            "type": 2,
+            "visible": true
+        },
+        {
+            "audible": true,
+            "id": "0155efcd-7f8e-4942-a5f2-58abc279548e",
+            "locked": false,
+            "type": 3,
+            "visible": true
+        }
+    ]
+}
