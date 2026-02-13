@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
+    --primary: #ED9121;
     --light: #F1F8FF;
     --dark: #87CEEB;
 }
@@ -101,6 +101,64 @@
         margin-right: 0;
         padding: 10px 0;
     }
+}
+
+/*** Logo Scaling and Rounding ***/
+.navbar-brand img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid var(--primary);
+    background-color: white;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand img {
+        width: 100px;
+        height: 100px;
+        border-width: 2px;
+    }
+}
+
+.navbar-brand h1 {
+    font-size: 1.1rem !important;
+    font-weight: 700;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand h1 {
+        font-size: 1.8rem !important;
+    }
+}
+
+/*** WhatsApp Floating Button ***/
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    color: #FFF;
+    transform: scale(1.1);
 }
 
 
